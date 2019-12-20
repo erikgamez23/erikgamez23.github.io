@@ -1,0 +1,40 @@
+.body{
+  background-color: #464646;
+}
+.blue{
+  color:#00CED1;
+  background-color: #464646;
+}
+
+.img{
+  border-radius: 20px;
+}
+.container {
+  background-color: #00CED1;
+  border-radius: 20px;
+}
+
+.col1 {
+  text-align: center;
+  background-color: #00CED1;
+  color: #464646
+}
+
+.row{
+  padding-left: 20px;
+  padding-right: 30px;
+  border-radius: 30px;
+  background-color: #00CED1;
+}
+
+.headText {
+  font: verdana;
+  font-size: 40px;
+  color: #00CED1;
+}
+
+.regText {
+  font: above;
+  font-size: 20px;
+  color: #00CED1;
+}
