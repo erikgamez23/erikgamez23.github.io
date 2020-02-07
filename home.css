@@ -1,8 +1,10 @@
-body{
+.body{
   background-color: #464646;
 }
-button{
-  text-align: center;
+.button{
+  display: block;
+  max-width: 300px;
+  margin:auto;
 }
 .blue{
   color:#00CED1;
