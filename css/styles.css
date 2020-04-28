@@ -20,23 +20,120 @@ html {
   border: 0;
 }
 
+:root{
+  --red-orange: #E27D60;
+  --salmon: #E8A87C;
+  --purp: #C38D9E;
+  --teal: #41B3A3;
+  --mint: #85DCBA;
+}
+
 /* no break */
 .nobr {
   white-space: nowrap;
 }
 
 /* START STYLES HERE */
+body {
+  background-color: var(--mint);
+}
+
+/*NAVIGATION*/
+.openbtn {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+}
+  
+.openbtn:hover {
+  color: grey;
+ }
+  
+.menu-text {
+  font-size: 11px;
+  display: block;
+}
+
+.all-over-bkg {
+display: none;
+}
+
+.is-visible {
+  background-color: rgba(0,0,0,0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 9999;
+  display: block;
+}
+
+#mySidenav {
+  z-index: 10000;
+  background-color: var(--mint);
+}
+
+#logo{
+  max-height: 50px;
+  max-width: auto;
+}
+#logo:hover{
+  opacity: 0.5;
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.05s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #85dcba; 
+  color: var(--purp);
+  border-radius: 2% 2% 2% 2%;
+  border: 5px solid var(--red-orange);
+}
+  
+  /* The navigation menu links */
+.sidenav a {
+  padding: 38px 38px 38px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.4s;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border-bottom: var(--salmon);
+}
+  
+  /* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: var(--salmon);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
 
-
-
-
+/*END NAVIGATION
 /* MEDIA QUERIES FROM SMALLEST TO LARGEST = MOBILE FIRST */
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
 
 }
 
@@ -54,28 +151,3 @@ No media query for `xs` since this is the default */
 @media (min-width: 1200px) {
 
 }
-
-
-/* MEDIA QUERIES FROM LARGEST TO SMALLEST */
-/* Extra small devices (portrait phones, less than 576px) */
-/* @media (max-width: 575.98px) {
-
-} */
-
-/* Small devices (landscape phones, less than 768px) */
-/* @media (max-width: 767.98px) {
-
-} */
-
-/* Medium devices (tablets, less than 992px) */
-/* @media (max-width: 991.98px) {
-
-} */
-
-/* Large devices (desktops, less than 1200px) */
-/* @media (max-width: 1199.98px) {
-
-} */
-
-/* Extra large devices (large desktops)
-No media query since the extra-large breakpoint has no upper bound on its width */
