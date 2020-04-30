@@ -36,7 +36,8 @@ html {
 /* START STYLES HERE */
 body {
   background-color: var(--mint);
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
 }
 
 /*NAVIGATION*/
@@ -75,6 +76,7 @@ display: none;
 #mySidenav {
   z-index: 10000;
   background-color: var(--mint);
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #logo{
