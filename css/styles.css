@@ -36,6 +36,7 @@ html {
 /* START STYLES HERE */
 body {
   background-color: var(--mint);
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 /*NAVIGATION*/
@@ -77,8 +78,8 @@ display: none;
 }
 
 #logo{
-  max-height: 50px;
-  max-width: auto;
+  max-height: 200px;
+  max-width:200px;
 }
 #logo:hover{
   opacity: 0.5;
@@ -92,7 +93,7 @@ display: none;
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.05s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
   background-color: #85dcba; 
   color: var(--purp);
   border-radius: 2% 2% 2% 2%;
