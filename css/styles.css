@@ -35,8 +35,8 @@ html {
 
 /* START STYLES HERE */
 body {
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-  font-family: 'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+  font-family: 'Julius Sans One', sans-serif;
   background-color: var(--mint);
   font-size: 20px;
 }
@@ -77,7 +77,7 @@ display: none;
 #mySidenav {
   z-index: 10000;
   background-color: var(--mint);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 #logo{
