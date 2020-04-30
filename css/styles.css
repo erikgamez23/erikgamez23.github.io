@@ -29,11 +29,11 @@ html {
 	background-color: #CC0000;
 }
 :root{
-  --red-orange: #E27D60;
-  --salmon: #E8A87C;
-  --purp: #C38D9E;
-  --teal: #41B3A3;
-  --mint: #85DCBA;
+  --red-orange: #e3c9c9;
+  --salmon: #f4e7e7;
+  --purp: #eedbdb;
+  --teal:  #cecbcb;
+  --mint: #cbdadb;
 }
 
 /* no break */
