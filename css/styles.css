@@ -35,9 +35,9 @@ html {
 
 /* START STYLES HERE */
 body {
-  background-color: var(--mint);
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
   font-family: 'Ubuntu', sans-serif;
+  background-color: var(--mint);
   font-size: 20px;
 }
 
