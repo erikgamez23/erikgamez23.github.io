@@ -51,12 +51,14 @@ body {
 }
 /*for website sections*/
 .sect {
+  padding: 1em;
   display: flex;
   flex-flow: row wrap;
   width: 70%;
   background-color:var(--grey);
   margin: 0 auto;
   border: 2px solid var(--darkPink);
+  border-radius: 1em;
 }
 
 
@@ -67,8 +69,8 @@ body {
 .openbtn {
   position: absolute;
   height: 200px;
-  left: 20px;
-  top: 20px;
+  left: 2%;
+  top: 2%;
   color: black;
 }
   
@@ -82,7 +84,7 @@ body {
 }
 
 .all-over-bkg {
-display: none;
+  display: none;
 }
 
 .is-visible {
@@ -120,7 +122,7 @@ display: none;
   transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
   color: var(--medPink);
   border-radius: 2% 2% 2% 2%;
-  border: 5px solid var(--lightPink);
+  border: 0px solid var(--lightPink);
 }
   
   /* The navigation menu links */
@@ -132,7 +134,6 @@ display: none;
   color: black;
   display: block;
   transition: 0.4s;
-  border-bottom: medium
 }
   
   /* When you mouse over the navigation links, change their color */
