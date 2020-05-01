@@ -7,9 +7,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-header {
-  min-height: 150px;
-}
+
 /* UTILITIES */
 /* hides an element on screen, but not from screen readers */
 .sr-only {
@@ -30,6 +28,7 @@ header {
 	height: 25px;
 	background-color: #CC0000;
 }
+
 :root{
   --darkPink: #c1a7a7;
   --lightPink: #f4e7e7;
@@ -50,7 +49,11 @@ body {
   font-size: 50px;
 }
 
-img {
+.menu {
+  max-height: 300px;
+}
+
+.pic {
   max-height: 300px;
   border: 2px var(--darkPink);
   border-radius: 1em;
@@ -58,15 +61,15 @@ img {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 /*for website sections*/
 .sect {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-content: space-evenly;
   width: 80%;
   background-color:var(--grey);
   margin: 1em auto;
@@ -82,15 +85,10 @@ h1 {
   height: 200px;
   right: 2%;
   top: 2%;
-  color: black;
 }
   
-.openbtn:hover {
-  color: #808080;
- }
-  
 .menu-text {
-  font-size: 11px;
+  font-size: 12px;
   display: block;
 }
 
@@ -135,7 +133,7 @@ h1 {
   top: 0; /* Stay at the top */
   right: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  padding-top: 80px; /* Place content 60px from the top */
   transition: 0.1s; /* 0.5 second transition effect to slide in the sidenav */
   color: var(--medPink);
   border-radius: 3% 3% 3% 3%;
@@ -146,7 +144,7 @@ h1 {
 .sidenav a {
   padding: 50px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   color: black;
   display: block;
@@ -162,7 +160,7 @@ h1 {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  left: 25px;
+  left: 20px;
   font-size: 36px;
   margin-left: 50px;
   padding-bottom:20px;
@@ -177,46 +175,40 @@ h1 {
 No media query for `xs` since this is the default */
 @media (min-width: 400px) {
   #logo {
-    max-height: 30px;
-    max-width: 30px;
+    max-height: 20px;
+    max-width: 20px;
   }
   #menu {
-    max-height: 30px;
-    max-width: 30px;
+    max-height: 20px;
+    max-width: 20px;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   #logo {
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 30px;
+    max-width: 30px;
   }
   #menu {
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 30px;
+    max-width: 30px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  #tag {
-    background-color: #FF9900;
-}
   #logo {
-    max-height: 70px;
-    max-width: 70px;
+    max-height: 40px;
+    max-width: 40px;
   }
   #menu {
-    max-height: 70px;
-    max-width: 70px;
+    max-height: 40px;
+    max-width: 40px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  #tag {
-    background-color: #00AA88;
-}
   #logo {
     max-height: 100px;
     max-width: 100px;
@@ -229,9 +221,6 @@ No media query for `xs` since this is the default */
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  #tag {
-    background-color: #674EA7;
-  }
   #logo {
     max-height: 120px;
     max-width: 120px;
