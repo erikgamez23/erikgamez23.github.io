@@ -84,11 +84,11 @@ h1 {
 
 
 /*NAVIGATION*/
-.openbtn {
+.openButton {
   position: fixed;
-  height: 100px;
-  left: 1em;
-  top: 1em;
+  left: .1em;
+  top: .3em;
+  max-height: 300px;
 }
 
 .menu-text {
@@ -117,9 +117,9 @@ h1 {
 }
 
 #menu {
-  max-height: 100px;
-  max-width: 100px;
+  height: 300px;
 }
+
 #menu:hover{
   opacity: 0.5;
 }
@@ -180,13 +180,12 @@ No media query for `xs` since this is the default */
     max-height: 20px;
     max-width: 20px;
   }
-  #menu {
-    max-height: 20px;
-    max-width: 20px;
-  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  #menu {
+    max-height: 30px;
+  }
   h1 {
     font-size: 14px;
   }
@@ -194,22 +193,17 @@ No media query for `xs` since this is the default */
     max-height: 30px;
     max-width: 30px;
   }
-  #menu {
-    max-height: 30px;
-    max-width: 30px;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  #menu {
+    max-height: 50px;
+  }
   h1 {
     font-size: 20px;
   }
   #logo {
-    max-height: 40px;
-    max-width: 40px;
-  }
-  #menu {
     max-height: 40px;
     max-width: 40px;
   }
@@ -224,19 +218,11 @@ No media query for `xs` since this is the default */
     max-height: 70px;
     max-width: 70px;
   }
-  #menu {
-    max-height: 70px;
-    max-width: 70px;
-  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #logo {
-    max-height: 100px;
-    max-width: 100px;
-  }
-  #menu {
     max-height: 100px;
     max-width: 100px;
   }

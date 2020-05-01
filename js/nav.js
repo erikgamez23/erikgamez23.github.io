@@ -10,5 +10,5 @@ function closeNav() {
     document.querySelector('#mySidenav').style.border = "0px";
 }
 
-document.querySelector('.openbtn').addEventListener('click', openNav);
+document.querySelector('.openButton').addEventListener('click', openNav);
 document.querySelector('.closebtn').addEventListener('click', closeNav);
