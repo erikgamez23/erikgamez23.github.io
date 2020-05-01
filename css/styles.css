@@ -170,6 +170,15 @@ h1 {
 
 
 /* MEDIA QUERIES FROM SMALLEST TO LARGEST = MOBILE FIRST */
+@media (max-width: 400px) {
+  h1 {
+    font-size: 12px;
+  }
+  #logo {
+    max-height: 20px;
+    max-width: 20px;
+  }
+}
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default */
 @media (min-width: 400px) {
