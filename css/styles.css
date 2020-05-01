@@ -31,7 +31,7 @@ header {
 	background-color: #CC0000;
 }
 :root{
-  --darkPink: #e3c9c9;
+  --darkPink: #c1a7a7;
   --lightPink: #f4e7e7;
   --medPink: #eedbdb;
   --grey: #cecbcb;
@@ -54,6 +54,7 @@ img {
   max-height: 300px;
   border: 2px var(--darkPink);
   border-radius: 1em;
+  margin: 10px;
 }
 
 h1 {
@@ -62,14 +63,13 @@ h1 {
 
 /*for website sections*/
 .sect {
-  max-height:300px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-evenly;
+  align-content: space-between;
   width: 80%;
   background-color:var(--grey);
-  margin: 0 auto;
+  margin: 1em auto;
   border: 2px solid var(--darkPink);
   border-radius: 1em;
   text-align: center;
