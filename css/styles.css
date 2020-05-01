@@ -90,7 +90,22 @@ h1 {
   margin: auto;
 }
 
-/*NAVIGATION*/
+.sect2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 60%;
+  background-color:var(--grey);
+  margin: 2em auto;
+  border: 2px solid var(--darkPink);
+  border-radius: 1em;
+  text-align: center;
+}
+/*END SECT*/
+
+/*START NAVIGATION*/
 .openButton {
   position: absolute;
   left: .3em;
