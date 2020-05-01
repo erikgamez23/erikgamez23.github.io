@@ -49,18 +49,30 @@ body {
   background-color: var(--mint);
   font-size: 50px;
 }
+
+img {
+  max-height: 300px;
+  border: 2px var(--darkPink);
+  border-radius: 1em;
+}
+
+h1 {
+  font-size: 20px;
+}
+
 /*for website sections*/
 .sect {
-  padding: 1em;
+  max-height:300px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-content: space-between;
-  width: 60%;
+  align-content: space-evenly;
+  width: 80%;
   background-color:var(--grey);
   margin: 0 auto;
   border: 2px solid var(--darkPink);
   border-radius: 1em;
+  text-align: center;
 }
 
 
