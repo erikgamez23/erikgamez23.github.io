@@ -57,6 +57,10 @@ body {
   max-width:150px;
 }
 
+#logo:hover {
+  opacity: 0.7;
+}
+
 .logoMove {
   display:flex;
   flex-flow: row wrap;
@@ -73,22 +77,23 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: flex-end;
-  width: 80%;
+  align-content: center;
+  width: 70%;
   background-color:var(--grey);
   margin: .1em auto;
   border: 2px solid var(--darkPink);
   border-radius: 1em;
   text-align: center;
 }
-
+.sect div {
+  margin: auto;
+}
 
 /*NAVIGATION*/
 .openButton {
   position: absolute;
   left: .1em;
   top: .3em;
-  max-height: 300px;
 }
 
 .menu-text {
@@ -166,28 +171,22 @@ h1 {
 }
 /*END NAVIGATION*/
 
-
-
-
 /* MEDIA QUERIES FROM SMALLEST TO LARGEST = MOBILE FIRST */
-@media (max-width: 400px) {
-  h1 {
-    font-size: 12px;
-  }
-  #logo {
-    max-height: 20px;
-    max-width: 20px;
-  }
-}
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default */
-@media (min-width: 400px) {
+@media (min-width: 200px) {
   h1 {
     font-size: 12px;
   }
   #logo {
     max-height: 20px;
     max-width: 20px;
+  }
+  #menu {
+    max-height: 20px;
+  }
+  .sect {
+    width: 93%;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -202,12 +201,15 @@ No media query for `xs` since this is the default */
     max-height: 30px;
     max-width: 30px;
   }
+  .sect {
+    width: 89%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #menu {
-    max-height: 50px;
+    max-height: 40px;
   }
   h1 {
     font-size: 20px;
@@ -215,6 +217,9 @@ No media query for `xs` since this is the default */
   #logo {
     max-height: 40px;
     max-width: 40px;
+  }
+  .sect {
+    width: 85%;
   }
 }
 
@@ -227,6 +232,9 @@ No media query for `xs` since this is the default */
     max-height: 70px;
     max-width: 70px;
   }
+  .sect {
+    width: 80%;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -234,5 +242,8 @@ No media query for `xs` since this is the default */
   #logo {
     max-height: 100px;
     max-width: 100px;
+  }
+  .sect {
+    width: 75%;
   }
 }
