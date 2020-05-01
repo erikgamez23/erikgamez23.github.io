@@ -80,7 +80,7 @@ h1 {
   align-content: center;
   width: 60%;
   background-color:var(--grey);
-  margin: .1em auto;
+  margin: 2em auto;
   border: 2px solid var(--darkPink);
   border-radius: 1em;
   text-align: center;
@@ -179,10 +179,6 @@ No media query for `xs` since this is the default */
   h1 {
     font-size: 12px;
   }
-  #logo {
-    max-height: 20px;
-    max-width: 20px;
-  }
   #menu {
     max-height: 20px;
   }
@@ -199,8 +195,8 @@ No media query for `xs` since this is the default */
     font-size: 14px;
   }
   #logo {
-    max-height: 30px;
-    max-width: 30px;
+    max-height: 100px;
+    max-width: 100px;
   }
   .sect {
     width: 89%;
@@ -215,10 +211,6 @@ No media query for `xs` since this is the default */
   h1 {
     font-size: 20px;
   }
-  #logo {
-    max-height: 40px;
-    max-width: 40px;
-  }
   .sect {
     width: 85%;
   }
@@ -229,10 +221,6 @@ No media query for `xs` since this is the default */
   h1 {
     font-size: 25px;
   }
-  #logo {
-    max-height: 70px;
-    max-width: 70px;
-  }
   .sect {
     width: 80%;
   }
@@ -241,8 +229,8 @@ No media query for `xs` since this is the default */
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #logo {
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 120px;
+    max-width: 120px;
   }
   .sect {
     width: 75%;
