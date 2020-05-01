@@ -1,5 +1,5 @@
 /*Import Google Font Julius Sans One*/
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 /* natural box model */
 html {
   box-sizing: border-box;
@@ -20,14 +20,6 @@ html {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-#tag {
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 25px;
-	height: 25px;
-	background-color: #CC0000;
-}
 
 :root{
   --darkPink: #c1a7a7;
@@ -44,9 +36,9 @@ html {
 
 /* START STYLES HERE */
 body {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   background-color: var(--mint);
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .menu {
@@ -57,7 +49,18 @@ body {
   max-height: 300px;
   border: 2px var(--darkPink);
   border-radius: 1em;
-  margin: 10px;
+  margin: 5px auto;
+}
+
+#logo {
+  max-height: 150px;
+  max-width:150px;
+}
+
+.logoMove {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 h1 {
@@ -72,7 +75,7 @@ h1 {
   align-content: space-evenly;
   width: 80%;
   background-color:var(--grey);
-  margin: 1em auto;
+  margin: .1em auto;
   border: 2px solid var(--darkPink);
   border-radius: 1em;
   text-align: center;
@@ -83,10 +86,10 @@ h1 {
 .openbtn {
   position: absolute;
   height: 200px;
-  right: 2%;
+  left: 2%;
   top: 2%;
 }
-  
+
 .menu-text {
   font-size: 12px;
   display: block;
@@ -112,12 +115,6 @@ h1 {
   background-color: var(--grey);
 }
 
-#logo {
-  max-height: 150px;
-  max-width:150px;
-  top: 2%;
-  left: 2%;
-}
 #menu {
   max-height: 150px;
   max-width: 150px;
@@ -125,13 +122,14 @@ h1 {
 #menu:hover{
   opacity: 0.5;
 }
+
 .sidenav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
-  right: 0;
+  left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 80px; /* Place content 60px from the top */
   transition: 0.1s; /* 0.5 second transition effect to slide in the sidenav */
@@ -174,6 +172,9 @@ h1 {
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default */
 @media (min-width: 400px) {
+  h1 {
+    font-size: 12px;
+  }
   #logo {
     max-height: 20px;
     max-width: 20px;
@@ -185,6 +186,9 @@ No media query for `xs` since this is the default */
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  h1 {
+    font-size: 14px;
+  }
   #logo {
     max-height: 30px;
     max-width: 30px;
@@ -197,6 +201,9 @@ No media query for `xs` since this is the default */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
   #logo {
     max-height: 40px;
     max-width: 40px;
@@ -209,24 +216,27 @@ No media query for `xs` since this is the default */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  h1 {
+    font-size: 25px;
+  }
   #logo {
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 70px;
+    max-width: 70px;
   }
   #menu {
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 70px;
+    max-width: 70px;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #logo {
-    max-height: 120px;
-    max-width: 120px;
+    max-height: 100px;
+    max-width: 100px;
   }
   #menu {
-    max-height: 120px;
-    max-width: 120px;
+    max-height: 100px;
+    max-width: 100px;
   }
 }
