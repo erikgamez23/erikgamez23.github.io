@@ -144,7 +144,6 @@ body {
   /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: var(--lightPink);
-  border: 1px solid var(--darkPink);
 }
 
 /* Position and style the close button (top right corner) */
