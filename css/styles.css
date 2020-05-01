@@ -74,7 +74,7 @@ body {
 }
   
 .openbtn:hover {
-  color: grey;
+  color: #808080;
  }
   
 .menu-text {
@@ -105,6 +105,8 @@ body {
 #logo {
   max-height: 150px;
   max-width:150px;
+  top: 2%;
+  left: 2%;
 }
 #menu {
   max-height: 150px;
