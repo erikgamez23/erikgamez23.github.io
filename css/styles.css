@@ -48,8 +48,9 @@ body {
   font-size: 50px;
 }
 /*for website sections*/
-.box {
-
+.sect {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 
@@ -63,7 +64,6 @@ body {
   left: 20px;
   top: 20px;
   color: black;
-  font-family: 'Julius Sans One', sans-serif;
 }
   
 .openbtn:hover {
@@ -93,7 +93,6 @@ display: none;
 #mySidenav {
   z-index: 10000;
   background-color: var(--grey);
-  font-family: 'Julius Sans One', sans-serif;
 }
 
 #logo{
@@ -127,7 +126,6 @@ display: none;
   color: black;
   display: block;
   transition: 0.4s;
-  font-family: "Julius Sans One","sans-serif";
   border-bottom: medium
 }
   
