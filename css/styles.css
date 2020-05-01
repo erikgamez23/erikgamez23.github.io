@@ -56,7 +56,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
-  width: 70%;
+  width: 60%;
   background-color:var(--grey);
   margin: 0 auto;
   border: 2px solid var(--darkPink);
@@ -124,7 +124,7 @@ body {
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.1s; /* 0.5 second transition effect to slide in the sidenav */
   color: var(--medPink);
-  border-radius: 2% 2% 2% 2%;
+  border-radius: 3% 3% 3% 3%;
   border: 2px solid var(--lightPink);
 }
   
@@ -166,10 +166,18 @@ No media query for `xs` since this is the default */
     max-height: 30px;
     max-width: 30px;
   }
+  #menu {
+    max-height: 30px;
+    max-width: 30px;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   #logo {
+    max-height: 50px;
+    max-width: 50px;
+  }
+  #menu {
     max-height: 50px;
     max-width: 50px;
   }
@@ -184,6 +192,10 @@ No media query for `xs` since this is the default */
     max-height: 70px;
     max-width: 70px;
   }
+  #menu {
+    max-height: 70px;
+    max-width: 70px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -195,6 +207,10 @@ No media query for `xs` since this is the default */
     max-height: 100px;
     max-width: 100px;
   }
+  #menu {
+    max-height: 100px;
+    max-width: 100px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -203,6 +219,10 @@ No media query for `xs` since this is the default */
     background-color: #674EA7;
   }
   #logo {
+    max-height: 120px;
+    max-width: 120px;
+  }
+  #menu {
     max-height: 120px;
     max-width: 120px;
   }
