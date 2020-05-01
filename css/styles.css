@@ -7,7 +7,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+header {
+  min-height: 150px;
+}
 /* UTILITIES */
 /* hides an element on screen, but not from screen readers */
 .sr-only {
@@ -51,6 +53,10 @@ body {
 .sect {
   display: flex;
   flex-flow: row wrap;
+  width: 70%;
+  background-color:var(--grey);
+  margin: 0 auto;
+  border: 2px solid var(--darkPink);
 }
 
 
@@ -96,14 +102,14 @@ display: none;
 }
 
 #logo{
-  max-height: 100px;
-  max-width:100px;
+  max-height: 150px;
+  max-width:150px;
 }
 #logo:hover{
   opacity: 0.5;
 }
 .sidenav {
-  height: 100%; /* 100% Full-height */
+  height: 85%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
@@ -121,7 +127,7 @@ display: none;
 .sidenav a {
   padding: 50px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   color: black;
   display: block;
@@ -151,12 +157,17 @@ display: none;
 /* MEDIA QUERIES FROM SMALLEST TO LARGEST = MOBILE FIRST */
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 400px) {
   #logo {
     max-height: 20px;
     max-width: 20px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #logo {
+    max-height: 30px;
+    max-width: 30px;
   }
 }
 
@@ -177,8 +188,8 @@ No media query for `xs` since this is the default */
     background-color: #00AA88;
 }
   #logo {
-    max-height: 60px;
-    max-width: 60px;
+    max-height: 70px;
+    max-width: 70px;
   }
 }
 
@@ -188,7 +199,7 @@ No media query for `xs` since this is the default */
     background-color: #674EA7;
   }
   #logo {
-    max-height: 70px;
-    max-width: 70px;
+    max-height: 100px;
+    max-width: 100px;
   }
 }
