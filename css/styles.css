@@ -97,7 +97,8 @@ display: none;
 }
 
 #logo{
-
+  max-height: 100px;
+  max-width:100px;
 }
 #logo:hover{
   opacity: 0.5;
