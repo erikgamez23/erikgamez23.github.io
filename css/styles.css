@@ -85,7 +85,7 @@ h1 {
 
 /*NAVIGATION*/
 .openButton {
-  position: fixed;
+  position: absolute;
   left: .1em;
   top: .3em;
   max-height: 300px;
