@@ -53,7 +53,9 @@ body {
 .sect {
   padding: 1em;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
   width: 70%;
   background-color:var(--grey);
   margin: 0 auto;
@@ -62,14 +64,11 @@ body {
 }
 
 
-
-
-
 /*NAVIGATION*/
 .openbtn {
   position: absolute;
   height: 200px;
-  left: 2%;
+  right: 2%;
   top: 2%;
   color: black;
 }
@@ -103,11 +102,15 @@ body {
   background-color: var(--grey);
 }
 
-#logo{
+#logo {
   max-height: 150px;
   max-width:150px;
 }
-#logo:hover{
+#menu {
+  max-height: 150px;
+  max-width: 150px;
+}
+#menu:hover{
   opacity: 0.5;
 }
 .sidenav {
@@ -116,13 +119,13 @@ body {
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
-  left: 0;
+  right: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: 0.1s; /* 0.5 second transition effect to slide in the sidenav */
   color: var(--medPink);
   border-radius: 2% 2% 2% 2%;
-  border: 0px solid var(--lightPink);
+  border: 2px solid var(--lightPink);
 }
   
   /* The navigation menu links */

@@ -1,5 +1,5 @@
 function openNav() {
-    document.querySelector('#mySidenav').style.width = "15%";
+    document.querySelector('#mySidenav').style.width = "20%";
     document.querySelector('.all-over-bkg').classList.add('is-visible');
     document.querySelector('#mySidenav').style.border = "5px";
 }
