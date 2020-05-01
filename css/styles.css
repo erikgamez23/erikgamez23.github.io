@@ -70,9 +70,10 @@ h1 {
 /*for website sections*/
 .sect {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-evenly;
+  justify-content: space-around;
+  align-content: flex-end;
   width: 80%;
   background-color:var(--grey);
   margin: .1em auto;
@@ -84,10 +85,10 @@ h1 {
 
 /*NAVIGATION*/
 .openbtn {
-  position: absolute;
-  height: 200px;
-  left: 2%;
-  top: 2%;
+  position: fixed;
+  height: 100px;
+  left: 1em;
+  top: 1em;
 }
 
 .menu-text {
@@ -116,8 +117,8 @@ h1 {
 }
 
 #menu {
-  max-height: 150px;
-  max-width: 150px;
+  max-height: 100px;
+  max-width: 100px;
 }
 #menu:hover{
   opacity: 0.5;
