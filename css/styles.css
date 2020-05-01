@@ -109,7 +109,7 @@ display: none;
   opacity: 0.5;
 }
 .sidenav {
-  height: 85%; /* 100% Full-height */
+  height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
@@ -159,15 +159,15 @@ display: none;
 No media query for `xs` since this is the default */
 @media (min-width: 400px) {
   #logo {
-    max-height: 20px;
-    max-width: 20px;
+    max-height: 30px;
+    max-width: 30px;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   #logo {
-    max-height: 30px;
-    max-width: 30px;
+    max-height: 50px;
+    max-width: 50px;
   }
 }
 
@@ -177,8 +177,8 @@ No media query for `xs` since this is the default */
     background-color: #FF9900;
 }
   #logo {
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 70px;
+    max-width: 70px;
   }
 }
 
@@ -188,8 +188,8 @@ No media query for `xs` since this is the default */
     background-color: #00AA88;
 }
   #logo {
-    max-height: 70px;
-    max-width: 70px;
+    max-height: 100px;
+    max-width: 100px;
   }
 }
 
@@ -199,7 +199,7 @@ No media query for `xs` since this is the default */
     background-color: #674EA7;
   }
   #logo {
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 120px;
+    max-width: 120px;
   }
 }
