@@ -29,10 +29,10 @@ html {
 	background-color: #CC0000;
 }
 :root{
-  --red-orange: #e3c9c9;
-  --salmon: #f4e7e7;
-  --purp: #eedbdb;
-  --teal:  #cecbcb;
+  --darkPink: #e3c9c9;
+  --lightPink: #f4e7e7;
+  --medPink: #eedbdb;
+  --grey: #cecbcb;
   --mint: #cbdadb;
 }
 
@@ -47,8 +47,10 @@ body {
   background-color: var(--mint);
   font-size: 50px;
 }
+/*for website sections*/
+.box {
 
-
+}
 
 
 
@@ -57,6 +59,7 @@ body {
 /*NAVIGATION*/
 .openbtn {
   position: absolute;
+  height: 200px;
   left: 20px;
   top: 20px;
   color: black;
@@ -89,13 +92,12 @@ display: none;
 
 #mySidenav {
   z-index: 10000;
-  background-color: var(--teal);
+  background-color: var(--grey);
   font-family: 'Julius Sans One', sans-serif;
 }
 
 #logo{
-  max-height: 200px;
-  max-width:200px;
+
 }
 #logo:hover{
   opacity: 0.5;
@@ -110,9 +112,9 @@ display: none;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
-  color: var(--purp);
+  color: var(--medPink);
   border-radius: 2% 2% 2% 2%;
-  border: 5px solid var(--salmon);
+  border: 5px solid var(--lightPink);
 }
   
   /* The navigation menu links */
@@ -130,7 +132,7 @@ display: none;
   
   /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: var(--salmon);
+  color: var(--lightPink);
 }
 
 /* Position and style the close button (top right corner) */
