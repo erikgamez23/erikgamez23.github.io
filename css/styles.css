@@ -38,7 +38,7 @@ html {
 body {
   font-family: 'Varela Round', sans-serif;
   background-color: var(--mint);
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .menu {
@@ -51,6 +51,7 @@ body {
   border-radius: 1em;
   margin: 5px auto;
 }
+
 .attribution {
   color: var(--darkPink);
   text-decoration: none;
@@ -58,10 +59,16 @@ body {
   font-size: 9px;
   right: 10px;
 }
+
+#linked {
+  border-radius: 0;
+}
+
 .attribution a {
   color: var(--darkPink);
   text-decoration: underline;
 }
+
 #logo {
   max-height: 150px;
   max-width:150px;
@@ -78,13 +85,13 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
 }
 
   /*for website sections*/
 .sect {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
@@ -96,7 +103,7 @@ h1 {
   text-align: center;
 }
 .sect a:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 .sect div {
