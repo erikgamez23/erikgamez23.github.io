@@ -74,11 +74,11 @@ h1 {
 /*for website sections*/
 .sect {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
-  width: 60%;
+  width: 55%;
   background-color:var(--grey);
   margin: 2em auto;
   border: 2px solid var(--darkPink);
@@ -90,12 +90,11 @@ h1 {
   margin: auto;
 }
 
-.sect2 {
+.contactSect {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: space-between;
   width: 60%;
   background-color:var(--grey);
   margin: 2em auto;
