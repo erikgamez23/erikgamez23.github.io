@@ -38,7 +38,6 @@ html {
 body {
   font-family: 'Varela Round', sans-serif;
   background-color: var(--mint);
-  font-size: 40px;
 }
 
 .menu {
@@ -46,14 +45,14 @@ body {
 }
 
 .pic {
-  height: 8em;
+  height: 20em;
   border: 2px var(--darkPink);
   border-radius: 1em;
   margin: 5px auto;
 }
 
 .icon {
-  height: 80%;
+  height: 90%;
   width: 80%;
   margin: 1em auto;
 }
@@ -69,6 +68,14 @@ body {
 .attribution a {
   color: var(--darkPink);
   text-decoration: underline;
+}
+
+.resume {
+  width: 70%;
+  height: 90%;
+  border-radius: 1em;
+  border: 2px solid var(--lightPink)
+  margin 1em auto;
 }
 
 #logo {
@@ -87,7 +94,7 @@ body {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 100px;
 }
 
   /*for website sections*/
@@ -99,7 +106,7 @@ h1 {
   align-content: center;
   width: 60%;
   background-color:var(--grey);
-  margin: 2em auto;
+  margin: 3em auto;
   border: 2px solid var(--darkPink);
   border-radius: 1em;
   text-align: center;
