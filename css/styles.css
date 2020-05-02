@@ -46,7 +46,7 @@ body {
 }
 
 .pic {
-  height: 250px;
+  height: 8em;
   border: 2px var(--darkPink);
   border-radius: 1em;
   margin: 5px auto;
@@ -56,11 +56,11 @@ body {
   text-decoration: none;
   position: absolute;
   font-size: 9px;
-  left:10px;
+  right: 10px;
 }
 .attribution a {
   color: var(--darkPink);
-  text-decoration: none;
+  text-decoration: underline;
 }
 #logo {
   max-height: 150px;
@@ -94,6 +94,9 @@ h1 {
   border: 2px solid var(--darkPink);
   border-radius: 1em;
   text-align: center;
+}
+.sect a:hover {
+    opacity: 0.6;
 }
 
 .sect div {
