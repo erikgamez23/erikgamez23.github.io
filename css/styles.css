@@ -112,6 +112,11 @@ h1 {
   text-align: center;
 }
 
+.sect a {
+  font-size: 30px;
+  margin: 2em auto;
+}
+
 .sect a:hover {
   opacity: 0.6;
 }
