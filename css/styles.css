@@ -46,12 +46,22 @@ body {
 }
 
 .pic {
-  max-height: 250px;
+  height: 250px;
   border: 2px var(--darkPink);
   border-radius: 1em;
   margin: 5px auto;
 }
-
+.attribution {
+  color: var(--darkPink);
+  text-decoration: none;
+  position: absolute;
+  font-size: 9px;
+  left:10px;
+}
+.attribution a {
+  color: var(--darkPink);
+  text-decoration: none;
+}
 #logo {
   max-height: 150px;
   max-width:150px;
@@ -78,7 +88,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
-  width: 55%;
+  width: 60%;
   background-color:var(--grey);
   margin: 2em auto;
   border: 2px solid var(--darkPink);
