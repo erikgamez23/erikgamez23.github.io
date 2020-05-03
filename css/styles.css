@@ -126,9 +126,9 @@ p {
   color: var(--darkPink);
 }
 
-#trident {
+#hat {
   margin: 0 auto;
-  height: 70%;
+  height: 9em;
 }
 
 #electronic {
@@ -136,6 +136,10 @@ p {
   width:70%;
 }
 
+#guitar {
+  height: 60%;
+  width:60%;
+}
 .sect a:hover {
   opacity: 0.6;
 }
