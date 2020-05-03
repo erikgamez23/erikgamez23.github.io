@@ -20,7 +20,7 @@ html {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
+/*Color Variables*/
 :root{
   --darkPink:#C1A7A7;
   --lightPink:#F4E7E7;
@@ -34,7 +34,7 @@ html {
   white-space: nowrap;
 }
 
-/* START STYLES HERE */
+/*BODY STYLES*/
 body {
   font-family: 'Varela Round', sans-serif;
   background-color: var(--mint);
@@ -61,7 +61,7 @@ body {
   width: 80%;
   margin: 1em auto;
 }
-
+/*START Attribution for FlatIcon.com*/
 .attribution {
   color: var(--darkPink);
   text-decoration: none;
@@ -74,6 +74,7 @@ body {
   color: var(--darkPink);
   text-decoration: underline;
 }
+/*END Attribution*/
 
 .resume {
   width: 70%;
@@ -129,8 +130,16 @@ p {
   text-decoration: none;
   color: var(--darkPink);
 }
+.sect a:hover {
+  opacity: 0.6;
+}
 
+.sect div {
+  margin: auto;
+}
+/*END SECT*/
 
+/*Image IDs for sizing*/
 #hat {
   margin: 0 auto;
   height: 9em;
@@ -160,15 +169,8 @@ p {
   width: 50%;
   height: 40%;
 }
+/*END Image IDs*/
 
-.sect a:hover {
-  opacity: 0.6;
-}
-
-.sect div {
-  margin: auto;
-}
-/*END SECT*/
 
 /*START NAVIGATION*/
 .openButton {
