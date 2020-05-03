@@ -99,6 +99,11 @@ h1 {
   padding: .3em;
 }
 
+p {
+  font-size: 24px;
+  color: black;
+}
+
   /*for website sections*/
 .sect {
   display: flex;
@@ -119,6 +124,16 @@ h1 {
   margin: 2em auto;
   text-decoration: none;
   color: var(--darkPink);
+}
+
+#trident {
+  margin: 0 auto;
+  height: 70%;
+}
+
+#electronic {
+  height:70%;
+  width:70%;
 }
 
 .sect a:hover {
