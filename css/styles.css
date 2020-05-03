@@ -79,8 +79,8 @@ body {
   width: 70%;
   height: 90%;
   border-radius: 1em;
-  border: 2px solid var(--lightPink)
-  margin 1em auto;
+  border: 2px solid var(--lightPink);
+  margin: 1em auto;
 }
 
 #logo {
