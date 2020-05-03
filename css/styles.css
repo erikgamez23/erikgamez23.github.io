@@ -22,11 +22,11 @@ html {
 }
 
 :root{
-  --darkPink: #c1a7a7;
-  --lightPink: #f4e7e7;
-  --medPink: #eedbdb;
-  --grey: #cecbcb;
-  --mint: #cbdadb;
+  --darkPink:#C1A7A7;
+  --lightPink:#F4E7E7;
+  --medPink:#EEDBDB;
+  --grey:#CECBCB;
+  --mint:#CBDADB;
 }
 
 /* no break */
@@ -50,6 +50,10 @@ body {
   border-radius: 1em;
   margin: 5px auto;
   max-width: 95%;
+}
+
+.tab{
+  padding-left: 4em;
 }
 
 .icon {
@@ -126,20 +130,27 @@ p {
   color: var(--darkPink);
 }
 
+
 #hat {
   margin: 0 auto;
   height: 9em;
 }
 
 #electronic {
-  height:70%;
-  width:70%;
+  height: 70%;
+  width: 70%;
 }
 
 #guitar {
   height: 60%;
-  width:60%;
+  width: 60%;
 }
+
+#plane {
+  height: 50%;
+  width: 50%;
+}
+
 .sect a:hover {
   opacity: 0.6;
 }
@@ -203,7 +214,7 @@ p {
   border-radius: 3% 3% 3% 3%;
   border: 2px solid var(--lightPink);
 }
-  
+
   /* The navigation menu links */
 .sidenav a {
   padding: 50px;
@@ -214,7 +225,7 @@ p {
   display: block;
   transition: 0.4s;
 }
-  
+
   /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: var(--lightPink);
