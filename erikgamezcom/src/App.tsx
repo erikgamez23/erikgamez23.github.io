@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import icon from './assets/favicon/android-chrome-384x384.png'
+import erikHome from './assets/erik/erikCooking.png';
+
 import './App.css'
 
 function App() {
@@ -16,19 +17,18 @@ function App() {
   return (
     <>
       <div>
-      <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <a href="https://erikgamez.com" target="_blank">
+        <img src={icon} className="logo" alt="Erik Gamez logo" />
+      </a>
       </div>
-      <h1>Erik Gamez Dot Com w/ React + Vite</h1>
+
+      <div>
+      {/* I can add a link to my Cooking Tab later with Recipes? */}
+      <img src={erikHome} className="headerImage" alt="Erik Cooking" />
+      </div>
+
+      <h1>Erik Gamez Dot Com</h1>
+
       <div className="card">
         <h2> Count is {count} </h2>
         <button onClick={() => setCount((count) => count - 1)}>
@@ -38,9 +38,6 @@ function App() {
           Increase
         </button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
