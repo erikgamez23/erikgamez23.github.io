@@ -1,0 +1,18 @@
+@import './App.css';
+#card {
+  font-family: "Major Mono Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  min-width: 30%;
+  padding: 2em;
+  
+  background-color: var(--lightPink);
+  border-color: var(--medPink);
+  border-radius: 15em;
+  border-style: solid;
+}
