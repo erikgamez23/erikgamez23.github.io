@@ -1,11 +1,11 @@
-@import './App.css';
+@import '../App.css';
 #card {
   font-family: "Major Mono Display", serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
 
-  margin: 0 auto;
+  margin: 5em;
   height: auto;
   width: auto;
   min-width: 30%;
