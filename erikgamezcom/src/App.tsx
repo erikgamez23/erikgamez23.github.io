@@ -12,12 +12,14 @@ function App() {
 
   return (
     <>
-      <NavigationBar></NavigationBar>
-
+      <NavigationBar />
+      
+      <div style={{ paddingTop: '64px' }}>  {/* Increased padding to accommodate navbar */}
+      
       <img src={erikHome} className="headerImage" alt="Erik Cooking" />
-
+      
       <Card title={title} body={body}></Card>
-
+      </div>
     </>
   )
 }

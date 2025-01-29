@@ -17,10 +17,12 @@ export default function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
           ></IconButton>
+          
+            {/* <Button color="inherit"> About Me </Button> */}
+            {/* <Button color="inherit"> Resume </Button>
+            <Button color="inherit"> Music </Button> 
+          */}
 
-          <Button color="inherit"> About Me </Button>
-          <Button color="inherit"> Resume </Button>
-          <Button color="inherit"> Music </Button>
         </Toolbar>
       </AppBar>
     </Box>
